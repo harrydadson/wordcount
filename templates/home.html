@@ -1,0 +1,9 @@
+This is HTML.
+<br />
+<a href="{% url 'about' %}">About</a>
+
+<form action='{% url 'count' %}'>
+  <textarea cols='40' rows='5' name='fulltext'>cool text</textarea>
+  <br />
+  <input type='submit' value='Count!'/>
+</form>
